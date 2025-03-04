@@ -38,7 +38,7 @@ def location_handler(update, context):
     context.bot.send_location(chat_id=ADMIM_ID, latitude=location.latitude, longitude=location.longitude)
 
 def main():
-    updater = Updater(token="7457389127:AAFozonlSNmBIYgV9sciXo-UI92kGZtZZvE")
+    updater = Updater(token="7457389127:AAEAoPLT4OWwBwCwvKjYqrcmNYpiNBvYm_0")
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler('start', start_command))
